@@ -1,0 +1,32 @@
+{
+  "source_notes": [
+    "DAPS: global",
+    "DiRe: global",
+    "HWTP: global",
+    "SWUC: global"
+  ],
+  "eigenvalues": [
+    1.9328154421348933,
+    1.0671845578651065
+  ],
+  "eta_formula": "eta = r + eta_spread * minmax(winsorized(a / b))",
+  "pd_method": "structural_monte_carlo",
+  "monte_carlo_draws": 5000,
+  "monte_carlo_time_steps": 16,
+  "allocation_method": "capped_softmax",
+  "n_obligors": 5000,
+  "loss_distribution_draws": 25000,
+  "loss_given_default": 0.45,
+  "loss_engine": "t-factor loss simulation with scenario-specific regime jumps, LGD stress, and cascade amplification",
+  "scenario_stress_design": "region-aware NGFS aggregation, nonzero physical EPL, and structural first-passage Monte Carlo PD estimation",
+  "portfolio_design": "synthetic 5,000-firm sector-region portfolio built on shared region-sector entities across scenarios",
+  "sensitivity_rate_grid": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05
+  ],
+  "sensitivity_loss_distribution_draws": 5000
+}

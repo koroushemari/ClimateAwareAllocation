@@ -1,0 +1,5 @@
+scenario,obligors,mean_mu_theta,mean_pd,mean_tail_intensity,mean_epl,allocated_obligors,capital_weighted_pd,capital_weighted_eta,capital_weighted_score,effective_obligors,top_20_capital_share,top_allocated_sector,top_allocated_region,total_capital,source_scope
+DAPS,5000,0.239098,0.624383,0.790315,0.79692,5000,0.341547,0.045363,0.028318,806.992,0.10162,Advanced Electric Appliances,Japan - JPN,100.0,global
+DiRe,5000,0.248768,0.595087,0.734809,0.848241,5000,0.333157,0.045638,0.028872,945.215,0.087856,CSS Bio,Greece - GRC,100.0,global
+HWTP,5000,0.265446,0.548806,0.317478,0.574597,5000,0.212225,0.051073,0.040275,278.65,0.221063,Biofuels,Japan - JPN,100.0,global
+SWUC,5000,0.225473,0.669119,1.015249,1.032592,5000,0.374991,0.044553,0.026192,803.867,0.102221,Advanced Electric Appliances,Greece - GRC,100.0,global

@@ -1,0 +1,5 @@
+scenario,total_capital_ok,cap_constraint_ok,allocated_obligors,max_allocation,cap_limit,effective_obligors,top_20_capital_share,score_allocation_corr,pd_allocation_corr
+DAPS,True,True,5000,0.851173,2.0,806.992,0.10162,0.652488,-0.360982
+DiRe,True,True,5000,0.665859,2.0,945.215,0.087856,0.672639,-0.361922
+HWTP,True,True,5000,1.922529,2.0,278.65,0.221063,0.480586,-0.221186
+SWUC,True,True,5000,0.946196,2.0,803.867,0.102221,0.658044,-0.391038
